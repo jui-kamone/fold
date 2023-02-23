@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .Fold {
+        background: rgb(246, 175, 221);
+        color: rgb(205, 2, 100);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px;
+      }
+      .Fold:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+      }
+      .Fold:hover:after {
+        transition-duration: 1s;
+        border-bottom: 50px solid rgb(205, 2, 100);
+        border-right: 50px solid white;
+      }
+      .jojo {
+        background: rgb(152, 127, 143);
+        color: rgb(13, 9, 11);
+        position: absolute;
+        top: 30;
+        left: 30%;
+        transform: translate(-30%, -30%);
+        height: 100px;
+        width: 100px;
+      }
+      .jojo:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+      }
+      .jojo:hover:after {
+        transition-duration: 1s;
+        border-bottom: 30px solid rgb(147, 110, 128);
+        border-right: 30px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="Fold">
+        <h3>Jui Kamone</h3>
+        <br />
+        <h3>Hey!! I am learner nice to meet you!!</h3>
+      </div>
+    </center>
+    <center>
+      <div class="jojo">
+        <h3>varsha sharma</h3>
+        <br />
+        <h3>Hey!!I am a developer</h3>
+      </div>
+    </center>
+  </body>
+</html>
